@@ -1,0 +1,23 @@
+.container-md {
+ border: 1px solid white;
+ padding: auto;
+ box-shadow: 5px 5px 5px 5px yellow;
+
+
+ 
+}
+
+.container {
+border: 1px solid white;
+margin-top: 50px;
+box-shadow: 2px 2px 2px 2px rgb(83, 248, 7);
+
+}
+
+body {
+    color: grey;
+    background-color: black;
+}
+.modal {
+    background-color: grey;
+}

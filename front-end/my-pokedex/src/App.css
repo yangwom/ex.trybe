@@ -1,0 +1,42 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 50%;
+  background-color: black;
+}
+
+.card  {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  list-style: none;
+  border: solid 1px black;
+  width: 15%;
+  border-radius: 10%;
+  box-shadow: 1px 1px 10px 1px rgb(0, 255, 0);
+  color: white;
+  
+}
+
+img {
+  width: 60%;
+}
+
+ul {
+display: flex;
+flex-flow: wrap;
+}
+.card:nth-child(9) {
+display: none;
+}
+.card:hover {
+  transition: 0.8s;
+  transform: scale(1.1);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}

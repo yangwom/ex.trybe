@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: 50%;
@@ -19,6 +19,10 @@
   
 }
 
+.bnt {
+  margin-left: 50%;
+  color: white;
+}
 img {
   width: 60%;
 }

@@ -20,7 +20,7 @@ class Form extends Component {
   
   handleChange(event) {
     const { name } = event.target;
-    const value = (event.target.type === 'checkbox') ? event.target.checked : event.targettarget.value;
+    const value = (event.target.type === 'checkbox') ? event.target.checked : event.target.value;
     this.setState({
       [name]: value,
     });

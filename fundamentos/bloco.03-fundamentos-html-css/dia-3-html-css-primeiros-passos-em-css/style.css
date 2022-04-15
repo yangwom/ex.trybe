@@ -1,33 +1,3 @@
-.super-mario {
-  width: 200px;
-  position: absolute;
-  margin-right: 40px;
- 
-}
-
-.goomba {
-  width: 100px;
-  position:absolute;
-  margin-top: 300px;
-margin-left: 110px;
-}
-
-.baloon {
-  margin-top: 112px;
-  position: absolute;
-  z-index: 1;
-  
-
-}
-
-.speach {
-  font-size: 25px;
-  position:absolute;
-  margin-left: 210px;
-  z-index: 2;
-  
-}
-
-.bowser {
-  width: 200px;
+ol.list-ordenada li {
+  background-color: yellow;
 }

@@ -18,7 +18,6 @@ function App() {
     </ul>
     <button type='button'onClick={hendleClick}  >Add task</button>
     </header>
-    //oi
   );
 }
 

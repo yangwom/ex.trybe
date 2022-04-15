@@ -62,7 +62,7 @@ const sorteio = (myNumber, callBack) => {
    return callBack(myNumber, number)
 
 }
-console.log(sorteio(2, checarNumero))
+//console.log(sorteio(2, checarNumero))
 
 
 // 3 - Crie uma HOF que receberá três parâmetros. O primeiro será um array de respostas corretas (Gabarito), o segundo será um array de respostas a serem verificadas (respostas da pessoa estudante) e o terceiro é uma função que checa se as respostas estão corretas e faz a contagem da pontuação final recebida pela pessoa estudante. Ao final a HOF deve retornar o total da contagem de respostas certas.
@@ -75,20 +75,20 @@ const hof = (arr1,arr2,callBack) => {
     let contador = 0;
     for( let i = 0; i < arr1.length; i += 1) {
      const gabarito = callBack(arr1[i], arr2[i]) 
-     contador += gabarito;
+   contador += gabarito 
     }
     return `resultado final:${contador} corretas`
 }
 const verificar = (compara1,compara2) => {
 if(compara1 === compara2) {
     return 1;
-}if(compara1 === 'N.A') {
+}if(compara2 === 'N.A') {
     return 0;
 }
 return -0.5
 }
 
-// console.log(hof(RIGHT_ANSWERS,STUDENT_ANSWERS,verificar))
+console.log(hof(RIGHT_ANSWERS,STUDENT_ANSWERS,verificar))
 
 // // const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 

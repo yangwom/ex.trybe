@@ -1,0 +1,14 @@
+{
+  "name": "exercios-7.3",
+  "version": "1.0.0",
+  "description": "exercicios de test",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "yang",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
